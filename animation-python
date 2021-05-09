@@ -1,0 +1,35 @@
+# animation-python
+esse código mostra pra vc tudo que foi codado uma por uma dando o efeito de "pc antigo"
+
+
+frase = """
+         ▄▄▄▄▄▄▄▄ 
+   █   ▄██████████▄ 
+  █▐   ████████████ 
+  ▌▐  ██▄▀██████▀▄██ 
+ ▐┼▐  ██▄▄▄▄██▄▄▄▄██ 
+ ▐┼▐  ██████████████ 
+ ▐▄▐████─▀▐▐▀█─█─▌▐██▄ 
+   █████──────────▐███▌ 
+   █  ██▄█─▄───▐─▄███▀ 
+   █  ███████▄██████ 
+      ██████████████ 
+      ██████████████ 
+      █████████▐▌██▌ 
+      ▐▀▐ ▌▀█▀ ▐ █ 
+            ▐    ▌ 
+    """
+import time, sys
+
+for i in list(frase):
+    print(i, end='')
+    sys.stdout.flush()
+    time.sleep(0.0099)
+
+frase =  "lalissa toxa d+"
+import time, sys
+
+for i in list(frase):
+    print(i, end='')
+    sys.stdout.flush()
+    time.sleep(0.1)
