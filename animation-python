@@ -26,7 +26,7 @@ for i in list(frase):
     sys.stdout.flush()
     time.sleep(0.0099)
 
-frase =  "lalissa toxa d+"
+frase =  "teste"
 import time, sys
 
 for i in list(frase):
